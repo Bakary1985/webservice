@@ -82,7 +82,6 @@ class WebService {
 
 			return $data;
 		}
-	}
 
 	public static function sendResponse($data, $status = 200) {
 		header("Content-type: application/json");
